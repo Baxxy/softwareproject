@@ -1,3 +1,5 @@
+//Richard Otroshchenko
+//05/03/17
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
