@@ -106,8 +106,8 @@ void humanstats(struct Player *list)
   total -= list->dexterity;
   if(total<1)
 {
-    list->dexterity -= 2;
-    total += 2;
+    list->dexterity -= 1;
+    total += 1;
 }
   list->luck = randomnumber(total,1);
   if(list->luck>100)
