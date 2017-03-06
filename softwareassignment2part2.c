@@ -125,9 +125,9 @@ for(int i=0;i<numplayers;i++)
 {
   printf("Position of player %d: %d,%s\n",i+1,playerlist[i].position,playerlist[i].slot);
 }
-int moveup, movedown, attackfound, yattack, xattack;
+int moveup, movedown, attackfound, yattack, xattack; //These are basically true/false variable to be used in the following loops.
 char enemy1[20], enemy2[20];
-for(int i=0;i<numplayers;i++)
+for(int i=0;i<numplayers;i++) //Please keep everything within this loop, as the program ends after every turn has been processed.
 {
   yattack = 0;
   xattack = 0;
